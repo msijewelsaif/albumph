@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="">
+    <link rel="stylesheet" href="style.css">
+    <style>
+.album{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-frame{
+    margin: 10px 10px 10px;
+    width: 300px;
+    height: 400px;
+    border: 10px solid greenyellow;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+.photo img{
+    width: 100%;
+    height: 50%;
+}
+.photo-detail{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top:0;
+    display: none;
+    font-style: italic;
+}
+.photo-frame:hover .photo-detail{
+    display: block;
+    background-color: rgba(127, 255, 212,0.4);
+    color: aliceblue;
+}
+.photo-frame:hover .photo img{
+    transform: scale(1.5);
+    transition: transform 2s;
+}
+footer {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <section class="album">
+<div class="photo-frame">
+<div class="photo"><img src="cover.png" alt=""></div>
+<div class="photo-detail"><h3> Md Saiful Islam</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem id earum quae, soluta maiores ea magni distinctio voluptatem vel. Doloribus beatae fuga similique doloremque laborum, est nisi deserunt quas maxime.</p></div>
+
+
+</div>
+<div class="photo-frame">
+    <div class="photo"><img src="cover.png" alt=""></div>
+    <div class="photo-detail"><h3> Md Saiful Islam</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem id earum quae, soluta maiores ea magni distinctio voluptatem vel. Doloribus beatae fuga similique doloremque laborum, est nisi deserunt quas maxime.</p></div>
+    
+    
+    </div>
+    <div class="photo-frame">
+        <div class="photo"><img src="cover.png" alt=""></div>
+        <div class="photo-detail"><h3> Md Saiful Islam</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem id earum quae, soluta maiores ea magni distinctio voluptatem vel. Doloribus beatae fuga similique doloremque laborum, est nisi deserunt quas maxime.</p></div>
+        
+        
+        </div>
+        <div class="photo-frame">
+            <div class="photo"><img src="cover.png" alt=""></div>
+            <div class="photo-detail"><h3> Md Saiful Islam</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem id earum quae, soluta maiores ea magni distinctio voluptatem vel. Doloribus beatae fuga similique doloremque laborum, est nisi deserunt quas maxime.</p></div>
+            
+            
+            </div>
+            <div class="photo-frame">
+                <div class="photo"><img src="cover.png" alt=""></div>
+                <div class="photo-detail"><h3> Md Saiful Islam</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem id earum quae, soluta maiores ea magni distinctio voluptatem vel. Doloribus beatae fuga similique doloremque laborum, est nisi deserunt quas maxime.</p></div>
+                
+                
+                </div>
+                <div class="photo-frame">
+                    <div class="photo"><img src="cover.png" alt=""></div>
+                    <div class="photo-detail"><h3> Md Saiful Islam</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem id earum quae, soluta maiores ea magni distinctio voluptatem vel. Doloribus beatae fuga similique doloremque laborum, est nisi deserunt quas maxime.</p></div>
+                    
+                    
+                    </div>
+                    <div class="photo-frame">
+                        <div class="photo"><img src="cover.png" alt=""></div>
+                        <div class="photo-detail"><h3> Md Saiful Islam</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem id earum quae, soluta maiores ea magni distinctio voluptatem vel. Doloribus beatae fuga similique doloremque laborum, est nisi deserunt quas maxime.</p></div>
+                        
+                        
+                        </div>
+                        <div class="photo-frame">
+                            <div class="photo"><img src="cover.png" alt=""></div>
+                            <div class="photo-detail"><h3> Md Saiful Islam</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem id earum quae, soluta maiores ea magni distinctio voluptatem vel. Doloribus beatae fuga similique doloremque laborum, est nisi deserunt quas maxime.</p></div>
+                            
+                            
+                            </div>
+    </section>
+    <footer class="text-center">
+        <p>&copy; 2023 MD Saiful Islam | Email: <a href="mailto:2002047@icte.bdu.ac.bd">2002047@icte.bdu.ac.bd</a></p>
+    </footer>
+
+</body>
+</html>
